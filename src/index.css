@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-sm: 600px;
+  --breakpoint-md: 800px;
+  --breakpoint-large: 1000px;
+  --breakpoint-desktop: 1200px;
+
+  /* Primary colors */
+  --color-primaryColor-50: oklch(0.9388 0.0321 303.48);
+  --color-primaryColor-100: oklch(0.8091 0.1069 302.67);
+  --color-primaryColor-200: oklch(0.7201 0.159 301.58);
+  --color-primaryColor-700: oklch(0.58 0.25 280 / 0.15);
+  --color-primaryColor-800: oklch(0.3755 0.215397 287.8352);
+
+  /* Main colors */
+
+  /* Sematic colors */
+
+  /* Success colors */
+
+  --color-success: oklch(0.347 0.0873 151.52);
+
+  /* Warning colors */
+
+  --color-warning: oklch(0.55 0.11 75);
+
+  /* Error colors */
+
+  --color-error: oklch(0.45 0.16 25);
+
+  /* Neutral colors */
+
+  /* Neutral Colors with Custom Names */
+  --color-surface-50: oklch(0.99 0.001 280);
+  --color-surface-100: oklch(0.96 0.002 280);
+  --color-surface-200: oklch(0.92 0.004 280);
+  --color-surface-300: oklch(0.86 0.006 280);
+  --color-surface-400: oklch(0.72 0.01 280);
+  --color-surface-500: oklch(0.56 0.012 280);
+  --color-surface-600: oklch(0.44 0.012 280);
+  --color-surface-700: oklch(0.36 0.01 280);
+  --color-surface-800: oklch(0.26 0.008 280);
+  --color-surface-900: oklch(0.18 0.006 280);
+  --color-surface-950: oklch(0.1 0.004 280);
+
+  /* custom text Sizes */
+
+  --text-sm: 14px;
+  --text-base: 24px;
+  --text-headline: 32px;
+  --text-title: 40px;
+
+  /* Custom shadow scales */
+
+  --shadow-brand: 0 4px 14px 0 oklch(0.58 0.25 280 / 0.15);
+}
