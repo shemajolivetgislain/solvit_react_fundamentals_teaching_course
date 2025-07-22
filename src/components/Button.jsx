@@ -4,8 +4,7 @@ const variantClasses = {
   primary: "bg-primaryColor-800 text-white hover:bg-primaryColor-700",
   danger: "bg-red-600 text-white hover:bg-red-700",
 };
-
-export const Button = ({
+const Button = ({
   label,
   type = "button",
   className = "",
@@ -24,3 +23,5 @@ export const Button = ({
     </button>
   );
 };
+
+export default Button;

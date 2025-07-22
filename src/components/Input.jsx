@@ -4,7 +4,7 @@ const variantClasses = {
   default: "border-gray-300 focus:ring-primaryColor-700",
   danger: "border-red-500 focus:ring-red-500",
 };
-export const Input = ({
+const Input = ({
   label,
   name,
   type = "text",
@@ -33,3 +33,5 @@ export const Input = ({
     </div>
   );
 };
+
+export default Input;
